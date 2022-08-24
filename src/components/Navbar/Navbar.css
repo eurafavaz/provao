@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-df {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F7FDD
+}
+
+.navbar-image {
+    height: 35px;
+    margin: 1.2rem 0 1rem 0;
+}
