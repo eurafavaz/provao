@@ -5,6 +5,6 @@ const characterContext = {
 };
 
 export const Api = {
-    baseUrl: "https://api.disneyapi.dev",
+    baseUrl: "https://api.disneyapi.dev/characters",
     ...characterContext,
   };
