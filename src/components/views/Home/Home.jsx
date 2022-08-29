@@ -15,15 +15,29 @@ function Home() {
   }, []);
 
   return (
-    <div className="home"> teste
-      {characters.map((characters) => (
-        <div className="cards" key={characters.id}>
+    <>
+      {
+
+        /*
+          Notação do professor:
+        
+          Imagino que adicionou a palavra "teste" para testar aplicação, 
+          como não faz parte da aplicação pode remover. 
+        
+          Obs.: Você não foi penalizado por esse trecho de código,
+          entra apenas como observação mesmo.
+        */
+      }
+      <div className="home"> teste
+        {characters.map((characters) => (
+          <div className="cards" key={characters.id}>
             <img className="imageUrl" src="https://static.wikia.nocookie.net/disney/images/1/15/Arianna_Tangled.jpg/revision/latest?cb=20160715191802" alt="Disney character">{characters.imageUrl}</img>
             <h1 className="name">{characters.name}</h1>
             <p className="films">{characters.films}</p>
-        </div>
-      ))}
-    </div>
+          </div>
+        ))}
+      </div>
+    </>
   );
 }
 
